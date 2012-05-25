@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [_&lt;#var#&gt; release], _&lt;#var#&gt; = nil;</string>
+	<string>[_&lt;#var#&gt; release], _&lt;#var#&gt; = nil;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B4743020-3C9B-431D-B370-F76789C5FB23</string>
 	<key>IDECodeSnippetLanguage</key>
