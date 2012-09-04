@@ -3,19 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddd</string>
+	<string>md5</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[_&lt;#var#&gt; release], _&lt;#var#&gt; = nil;</string>
+	<string>- (NSString *) md5:(NSString *) input
+{
+    const char *cStr = [input UTF8String];
+    unsigned char digest[16];
+    CC_MD5( cStr, strlen(cStr), digest ); // This is the md5 call
+    
+    NSMutableString *output = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+    
+    for(int i = 0; i &lt; CC_MD5_DIGEST_LENGTH; i++)
+        [output appendFormat:@"%02x", digest[i]];
+    
+    return  output;
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B4743020-3C9B-431D-B370-F76789C5FB23</string>
+	<string>74948987-6AD6-4010-BD73-0B7007D4C43F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dealloc</string>
+	<string>md5 generation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

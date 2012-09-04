@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddd</string>
+	<string>uuid</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[_&lt;#var#&gt; release], _&lt;#var#&gt; = nil;</string>
+	<string>-(NSString*) uuid {  
+    CFUUIDRef puuid = CFUUIDCreate( nil );  
+    CFStringRef uuidString = CFUUIDCreateString( nil, puuid );  
+    NSString * result = (NSString *)CFStringCreateCopy( NULL, uuidString);  
+    CFRelease(puuid);  
+    CFRelease(uuidString);  
+    return [result autorelease];  
+} </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B4743020-3C9B-431D-B370-F76789C5FB23</string>
+	<string>E998C270-5110-47A2-B356-E21448E88BDB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dealloc</string>
+	<string>uuid generation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

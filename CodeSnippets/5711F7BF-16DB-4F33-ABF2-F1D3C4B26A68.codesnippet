@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddd</string>
+	<string>ipad</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[_&lt;#var#&gt; release], _&lt;#var#&gt; = nil;</string>
+	<string>    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        &lt;#statement#&gt;
+    } else {
+        &lt;#statement#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B4743020-3C9B-431D-B370-F76789C5FB23</string>
+	<string>5711F7BF-16DB-4F33-ABF2-F1D3C4B26A68</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dealloc</string>
+	<string>ipad</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddd</string>
+	<string>notifadd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[_&lt;#var#&gt; release], _&lt;#var#&gt; = nil;</string>
+	<string> [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#key#&gt; object:nil];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B4743020-3C9B-431D-B370-F76789C5FB23</string>
+	<string>A659EF43-F6DE-46A6-A780-CF17D14A5273</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dealloc</string>
+	<string>Notification Center - Add Observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
