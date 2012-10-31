@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sss</string>
+	<string>dlgt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>    if ([self.delegate respondsToSelector:@selector(&lt;#Selector Signature#&gt;)]) {
+        [self.delegate &lt;#Delegate Method#&gt;];
+    }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2B7F64DA-8F87-4874-9DDB-D818001F5D61</string>
+	<string>66235512-A149-4F9D-9EAA-66E3173506B1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Template for safely calling an delegate method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC strong property</string>
+	<string>Call delegate method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
