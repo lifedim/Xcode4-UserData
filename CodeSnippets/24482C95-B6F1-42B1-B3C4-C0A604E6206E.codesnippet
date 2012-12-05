@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddd</string>
+	<string>docmethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc {
-    &lt;#ivar#&gt;
-    [super dealloc];
-}</string>
+	<string>/**
+ &lt;#description#&gt;
+ @param &lt;#parameter#&gt;
+ @returns &lt;#retval#&gt;
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D8C239B1-F57F-4975-BFA2-F04B13D75E23</string>
+	<string>24482C95-B6F1-42B1-B3C4-C0A604E6206E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC dealloc</string>
+	<string>Documentation - appledoc for method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

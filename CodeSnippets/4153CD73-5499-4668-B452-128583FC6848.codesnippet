@@ -10,13 +10,14 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark -
-#pragma mark &lt;#Label#&gt;</string>
+#pragma mark &lt;#Label#&gt;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4153CD73-5499-4668-B452-128583FC6848</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Comment Pragma mark</string>
+	<string>Documentation - Pragma mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

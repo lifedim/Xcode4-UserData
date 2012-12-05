@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sss</string>
+	<string>notifpost</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@synthesize &lt;#property#&gt; = _&lt;#propertyIvar#&gt;;</string>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#(NSString *)#&gt; object:&lt;#(id)#&gt; userInfo:&lt;#(NSDictionary *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3E679099-2C9D-4275-AC7C-258AC1D581C9</string>
+	<string>A42E9BAD-A944-4C93-9C45-D3C8B1D55DED</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC synthesize</string>
+	<string>Notification Center - Post notification</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

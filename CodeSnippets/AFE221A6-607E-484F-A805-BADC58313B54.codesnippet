@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apporientation</string>
+	<string>oriinterface</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[UIApplication sharedApplication] statusBarOrientation]</string>
+	<string>UIInterfaceOrientation *orientation = [[UIApplication sharedApplication] statusBarOrientation]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AFE221A6-607E-484F-A805-BADC58313B54</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>orientation</string>
+	<string>Orientation - get interface orientation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
