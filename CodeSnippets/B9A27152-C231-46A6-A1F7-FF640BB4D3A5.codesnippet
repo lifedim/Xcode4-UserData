@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>docmethod</string>
+	<string>kss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- &lt;#description#&gt;
- @param &lt;#parameter#&gt;
- @returns &lt;#retval#&gt;
- */</string>
+	<string>static NSString *k&lt;#Key#&gt; @"&lt;#KeyValue#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24482C95-B6F1-42B1-B3C4-C0A604E6206E</string>
+	<string>B9A27152-C231-46A6-A1F7-FF640BB4D3A5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Documentation - appledoc for method</string>
+	<string>Const key string</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

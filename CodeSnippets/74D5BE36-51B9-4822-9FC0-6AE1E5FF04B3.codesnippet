@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>docmethod</string>
+	<string>docsimple</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
- &lt;#description#&gt;
- @param &lt;#parameter#&gt;
- @returns &lt;#retval#&gt;
+ * &lt;#description#&gt;
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24482C95-B6F1-42B1-B3C4-C0A604E6206E</string>
+	<string>74D5BE36-51B9-4822-9FC0-6AE1E5FF04B3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Documentation - appledoc for method</string>
+	<string>Documentation - Simple method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

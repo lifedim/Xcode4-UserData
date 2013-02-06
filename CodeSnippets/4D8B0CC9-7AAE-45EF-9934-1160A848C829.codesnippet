@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>docmethod</string>
+	<string>nsloginteger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- &lt;#description#&gt;
- @param &lt;#parameter#&gt;
- @returns &lt;#retval#&gt;
- */</string>
+	<string>NSLog(@"&lt;#desc#&gt;: %d", &lt;#obj#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24482C95-B6F1-42B1-B3C4-C0A604E6206E</string>
+	<string>4D8B0CC9-7AAE-45EF-9934-1160A848C829</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Documentation - appledoc for method</string>
+	<string>Log - NSLog integer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
